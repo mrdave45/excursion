@@ -1,33 +1,30 @@
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #333;
+  background-color: black;
+  text-align: center;
+  font-family: "Verdana", sans-serif;
+  color: white;
 }
 
-h1, h2 {
-    font-weight: normal;
-    color: #000;
+.cta {
+  color: aquamarine;
+  font-size: 16px;
 }
 
-a.cta {
-    background-color: #0066cc;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
+h1 {
+  font-size: 50px;
+  font-weight: normal;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto; /* Center images */
+h2 {
+  font-size: 42px;
+  font-weight: 300;
+}
+
+p {
+  font-size: 21px;
+  color: gray;
 }
 
 .footer {
-    text-align: center;
-    padding: 20px 0;
-    background-color: #f2f2f2;
-}
-
+  text-align: right;
+} 
